@@ -1,0 +1,33 @@
+main{
+    min-height: 85vh;
+    text-align: center;
+    padding: 20px;
+}
+
+#text_section > h1{
+    margin-bottom: 10px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+#text_section > h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+#about_button{
+    margin-top: 15px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: solid 2px var(--second_color);
+    background-color: var(--dark_color);
+    color: var(--third_color);
+    transition: 0.3s ease;
+}
+
+#about_button:hover{
+    cursor: pointer;
+    background-color: var(--header_color);
+    transform: translateY(-3px);
+    box-shadow: 0 0 12px rgba(255, 187, 0, 0.4);
+}
