@@ -26,3 +26,16 @@ header{
     width: 0;
     background: transparent;
 }
+
+
+@media (max-width: 1024px){
+    header img{
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    header img{
+        width: 60px;
+    }
+}   

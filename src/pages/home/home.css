@@ -31,3 +31,13 @@ main{
     transform: translateY(-3px);
     box-shadow: 0 0 12px rgba(255, 187, 0, 0.4);
 }
+
+main img{
+    width: 520px;
+}
+
+@media (max-width: 608px){
+    main img{
+        width: 200px;
+    }
+}    
