@@ -60,6 +60,9 @@
     transform: scale(1.1);
 }
 
+.cards img{
+    width: 40px;
+}
 .contact_button{
     margin-top: 3vh;
 
