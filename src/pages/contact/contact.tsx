@@ -29,7 +29,7 @@ const Contact = () => {
                         <h2>Whatsapp</h2>
                         <h3>Atendimento rápido</h3>
                         <p>Tire dúvidas e solicite um orçamento diretamente pelo WhatsApp:</p>
-                        <a href="https://wa.me/5532991787737" target="_blank">
+                        <a href="https://wa.me/5532987181489" target="_blank">
                             <button className="contact_button">Falar no Whatsapp</button>
                         </a>
                     </div>
